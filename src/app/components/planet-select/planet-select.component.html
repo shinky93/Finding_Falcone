@@ -1,0 +1,11 @@
+<div *ngIf="planetOptions">
+  <label for="planetSelection">Destination</label>
+  <mat-form-field>
+
+    <input type="text" matInput [formControl]="myControl" [matAutocomplete]="auto" placeholder="Select Planet" >
+    <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn" (optionSelected)="valueSelected($event)">
+      <mat-option>None</mat-option>
+      <mat-option *ngFor="let option of filteredOptions | async" [value]="option" [disabled]="option.disabled">{{option.name}}</mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+</div>

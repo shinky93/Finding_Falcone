@@ -1,0 +1,37 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+
+    height: 85vh;
+    background: #71747c;
+    background: linear-gradient(to top,#dce0e9,#506eaa);
+}
+
+.searchUnitContainer{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.searchUnit {
+    margin: 10px;
+}
+
+.findFalconeDiv {
+    padding: 30px;
+}
+
+.findFalconeDiv button{
+    background-color: green;
+    color:white;
+}
+
+.time-taken { 
+    color: white;
+    font-size: 25px;
+}
+
