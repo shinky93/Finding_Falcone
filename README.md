@@ -2,7 +2,7 @@
 
 This project was developed as part of Frontend challenge of GeekTrust - Finding Falcone
 
-To see it live - https://sriram15.github.io/FindingFalconeFEChallenge/home
+To see it live - https://shinky93.github.io/Finding_Falcone
 
 
 ## Development server
